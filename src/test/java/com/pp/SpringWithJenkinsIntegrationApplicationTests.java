@@ -13,8 +13,9 @@ class SpringWithJenkinsIntegrationApplicationTests {
 	public static Logger logger=LoggerFactory.getLogger(SpringWithJenkinsIntegrationApplicationTests.class);
 
 	@Test
-	public  contextLoads() {
+	public void  contextLoads() {
 		logger.info("text case executing... .....");
+		logger.info("text case second log... .....");
 		assertEquals(true,true);
 	}
 
