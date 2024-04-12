@@ -17,7 +17,7 @@ class SpringWithJenkinsIntegrationApplicationTests {
 		logger.info("text case executing... .....");
 		logger.info("text case second log... .....");
 		logger.info("text case third log... .....");
-		assertEquals(true,true);
+		assertEquals(true,false);
 	}
 
 }
